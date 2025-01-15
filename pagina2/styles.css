@@ -1,0 +1,53 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .doomfist {
+    position: relative;
+    height: 100vh;
+    background-image: url('https://cdnb.artstation.com/p/assets/images/images/025/358/945/large/rabcat-game-art-doomfist-image04.jpg?1585561459');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+  }
+  
+  .doom-contenido {
+    position: relative;
+    z-index: 2;
+  }
+  
+  .doomfist::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); 
+    z-index: 1;
+  }
+
+  .container {
+    padding: 2rem 1rem;
+  }
+  
+  .text-center {
+    text-align: center;
+  }
+  
+  h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  p {
+    font-size: 1rem;
+    line-height: 1.5;
+  }
