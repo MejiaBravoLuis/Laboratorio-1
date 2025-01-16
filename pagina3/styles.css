@@ -1,0 +1,61 @@
+body{
+    margin:0;
+    padding: 0;
+    
+
+    height: 100vh;
+    background: url('https://static.wixstatic.com/media/128120_d716ee8e434e439c820e824c2e46c7db~mv2.jpg/v1/fill/w_454,h_341,fp_0.50_0.50,q_90,enc_auto/128120_d716ee8e434e439c820e824c2e46c7db~mv2.jpg') center;
+    background-size: cover;
+    backdrop-filter: blur(10px);
+  }
+
+  .menu{
+    background-color: #fff; 
+    padding: 2rem 3rem;
+    box-shadow: 0px 0px 25px #222;
+    color: #fff;
+    border: 3px solid #fff;
+    box-shadow: 0px 0px 25px #222;
+    color: black;
+
+    display: block;
+    margin: auto;
+    background-color: hsl(0, 0%, 90%);
+
+  }
+
+  .container {
+    font-family: rubik-medium, sans-serif;
+    background-color: #fff;
+    border: 3px solid #fff;
+    box-shadow: 0px 0px 25px #222;
+    color: black;
+    width: 100%; /* Hacer que el contenedor abarque todo el ancho */
+    padding: 2rem;
+    display: flex; /* Usar Flexbox para alinear elementos */
+    align-items: center; /* Centrar verticalmente */
+}
+.container img {
+    margin-right: 2rem; /* Espaciado entre la imagen y el texto */
+}
+.container .lema {
+    flex: 1; /* Hacer que el texto ocupe el espacio restante */
+}
+
+  .footer-custom {
+    box-shadow: 0px 0px 25px #222;
+
+    font-family: rubik-medium, sans-serif;
+    background-color: #000080;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+}
+.footer-custom a {
+    font-family: rubik-medium, sans-serif;
+    color: white;
+    text-decoration: none;
+}
+.footer-custom a:hover {
+    text-decoration: underline;
+}
